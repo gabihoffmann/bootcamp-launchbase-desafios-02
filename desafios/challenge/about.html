@@ -4,50 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rocketseat</title>
+    <title>Desafio 2-2</title>
 
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="image/favicon.ico">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
 </head>
 
 <body>
-    <header class="contacts">
-        <nav class="contact-menu">
-            <a href="index.html">Home</a>
-            <a href="content.html">Content</a>
-        </nav>
+    <header>
+        <div class="container">
+          <div class="container-logo">
+              <img src="https://rocketseat.com.br/static/images/gostack/logo-rocketseat.svg" alt="rocketseat">
+          </div>
+          <nav class="contact-menu">
+             <ul>
+              <li><a href="https://discordapp.com/invite/gCRAFhc" target="_blank">Community</a></li>
+              <li><a href="mailto:oi@rocketseat.com.br">Email</a></li>
+              <li><a href="tel:+5547992078767">Phone</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/content.html">Courses</a></li>
+             </ul>
+          </nav>
+        </div>
     </header>
-
-        <div class="info">
+    <div class="content">
+        <section class="info">
             <div class="img-container">
                 <img src="https://rocketseat.com.br/static/images/logo-rocketseat.svg" alt="Rocketseat">
-            </div>
-            <div class="company">
                 <h1 class="company__name">Rocketseat</h1>
-                <p class="company__description">
-                    As melhores tecnologias em programação, direto ao ponto e do jeito certo.
-                    No meio de tanta informação e da quantidade de ferramentas que surgem todos os dias, você precisa de
-                    alguém que te leve na direção certa.
-                </p>
-                <ul class="company__technologies">
-                    <li>JavaScript</li>
-                    <li>Node.js</li>
-                    <li>React.js</li>
+            </div>
+            <div class="container">
+                <div class="company">
+                    <div class="company__description">
+                        <h3>As melhores tecnologias em programação, direto ao ponto e do jeito certo.</h3>
+                        <p>No meio de tanta informação e da quantidade de ferramentas que surgem todos os dias, você precisa de
+                        alguém que te leve na direção certa.<p>
+                    </div>
+                    <ul class="company__technologies">
+                        <li><span class="material-icons">
+                            code
+                            </span>JavaScript</li>
+                        <li><span class="material-icons">
+                            next_week
+                            </span>Node.js</li>
+                        <li><span class="material-icons">
+                            settings_brightness
+                            </span>React.js</li>
+                        <li><span class="material-icons">
+                            mobile_screen_share
+                            </span>React Native</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="social-links">
+            <nav class="contact-menu footer">
+                <ul>
+                    <li>
+                        <a href="https://rocketseat.com.br/" target="_blank">
+                            Rocketseat
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/rocketseat" target="_blank">
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/rocketseat_oficial" target="_blank">
+                            Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://fb.com/rocketseat" target="_blank">
+                            Facebook
+                        </a>
+                    </li>
                 </ul>
-            </div>
-            <div class="contacts footer">
-                <nav class="contact-menu footer">
-                    <a href="https://rocketseat.com.br/" target="_blank" rel="noopener noreferrer">Rocketseat</a>
-                    <a href="https://github.com/rocketseat" target="_blank" rel="noopener noreferrer">
-                        GitHub</a>
-                    <a href="http://instagram.com/rocketseat_oficial" target="_blank" rel="noopener noreferrer">Instagram</a>
-                    <a href="http://fb.com/rocketseat" target="_blank" rel="noopener noreferrer">Facebook</a>
-                        
-                    </a>
-                </nav>
-            </div>
+            </nav>
         </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__author">Feito com 🧡 por 
+                <a href="http://www.github.com/gabihoffmann" target="_blank">
+                    Gabi Hoffmann</a>, @Launchbase 
+                <a href="http://rocketseat.com.br/" target="_blank" >
+                    Rocketseat
+                </a>🚀!
+            </p>
+        </div>
+    </footer>
 </body>
-
-
 </html>

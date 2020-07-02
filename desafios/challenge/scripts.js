@@ -7,6 +7,7 @@ for(let card of cards){
     const cardId = card.getAttribute('id')
 
     card.querySelector('.card__price').style.background = `var(--color-${cardId})`
+    card.querySelector('.card__description--highlight').style.color = `var(--color-${cardId})`
     
     card.addEventListener('mouseover', function(){
         card.style.border = `2px solid var(--color-${cardId})`
