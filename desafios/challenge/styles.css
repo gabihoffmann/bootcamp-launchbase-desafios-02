@@ -342,3 +342,7 @@ section .container {
   width: 100%;
   height: 94%;
 }
+
+.container-logo a {
+  color: var(--color-sencodary);
+}
